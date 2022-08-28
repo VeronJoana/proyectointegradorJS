@@ -1,0 +1,286 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titulo2 {
+  padding-top: 20px;
+  font-family: "Mea Culpa", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Parisienne", cursive;
+  color: black;
+  font-size: 60px;
+  margin-left: 65px;
+}
+
+.titulo {
+  font-size: 60px;
+  font-family: "Mea Culpa", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Parisienne", cursive;
+  color: black;
+}
+
+.leyenda {
+  font-size: 40px;
+  font-family: "Mea Culpa", cursive;
+  color:black;
+}
+
+.navbar {
+  height: 70px;
+}
+
+.navbar :hover {
+  background-color: transparent;
+}
+
+.navbar-expand-lg {
+  background-color: orange;
+}
+
+.logo {
+  width: 70px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  font-size: 18px;
+}
+
+.navbar-expand {
+  padding: 3rem 2rem;
+  height: 0rem;
+  min-height: 12vh;
+}
+
+.titulo-imagen {
+  background: linear-gradient(
+      rgba(240, 230, 224, 0.45),
+      rgba(243, 228, 144, 0.45)
+    ),
+    url(./IMAGENES/fotoInicio.jpg) no-repeat center center;
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -0px -0px 1px hsl(0, 0%, 100%);
+}
+
+.carousel {
+  width: 80%;
+  display: block;
+  justify-content: center;
+  margin: auto;
+}
+
+.container-form {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid a {
+  text-decoration: none;
+}
+
+.card-img-top {
+  width: 800px;
+  height: 380px;
+}
+
+.card-group {
+  margin-top: 50px;
+}
+
+.card {
+  padding: 5px;
+}
+
+.card {
+  padding: 2px;
+  margin: 30px;
+  box-shadow: 0px 2px 10px rgba(1, 1, 2, 1);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgb(255, 183, 1);
+  transform: translateY(-3%);
+}
+
+.fa-bars {
+  font-size: 20px;
+}
+
+.card-body {
+  background-color: pink;
+}
+
+.nav-item a {
+  color: black;
+}
+
+.nav-link:hover {
+  background-color: transparent;
+}
+
+.contacto {
+  font-family: "Mea Culpa", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Parisienne", cursive;
+  color: black;
+  font-size: 70px;
+  margin-left: 500px;
+}
+
+.nosotros h1 {
+  font-family: "Mea Culpa", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Parisienne", cursive;
+  color: black;
+  font-size: 60px;
+  margin-left: 500px;
+  justify-content: flex;
+}
+
+.inputs {
+  margin-left: 540px;
+  border: solid black 3px;
+}
+
+.col_white_amrc {
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  background-color: wheat;
+  min-height: 250px;
+  padding: 5px 10px 5px 10px;
+  margin-top: 15px;
+}
+
+.pt2 {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+h5 {
+  padding: 5px;
+}
+
+footer p {
+  font-size: 15px;
+  color: black;
+  padding: 5px 10px 5px 10px;
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+
+.mb10 {
+  padding-bottom: 15px;
+}
+
+.footer_ul_amrc {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 0px 0px 10px 0px;
+}
+
+.footer_ul_amrc li {
+  padding: 0px 0px 5px 0px;
+}
+
+.footer_ul_amrc li a {
+  color: black;
+}
+
+.footer_ul_amrc li a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.fleft {
+  float: left;
+}
+
+.padding-right {
+  padding-right: 10px;
+}
+
+.footer_ul2_amrc {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.footer_ul2_amrc li p {
+  display: table;
+}
+
+.footer_ul2_amrc li a:hover {
+  text-decoration: none;
+}
+
+.footer_ul2_amrc li i {
+  margin-top: 5px;
+}
+
+.bottom_border {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.foote_bottom_ul_amrc {
+  list-style-type: none;
+  padding: 0px;
+  display: table;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+.foote_bottom_ul_amrc li {
+  display: inline;
+}
+
+.foote_bottom_ul_amrc li a {
+  color: black;
+  margin: 0 12px;
+}
+
+.social_footer_ul {
+  display: table;
+  margin: 15px auto 0 auto;
+  list-style-type: none;
+}
+
+.social_footer_ul li {
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+
+.social_footer_ul li a {
+  color: black;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.social_footer_ul li i {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
